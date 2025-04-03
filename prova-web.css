@@ -1,0 +1,11 @@
+header {
+    padding: 8px; /**responsavel pelo peenchimento interno/tamanho**/
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    display: flex; /*tornando os itens lado a lado*/
+    align-items: center;
+}
+.cabecalho {
+    display: flex;
+    align-items: center;
+}
