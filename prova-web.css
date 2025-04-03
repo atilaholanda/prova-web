@@ -3,9 +3,89 @@ header {
     background-color: #000000;
     color: rgb(255, 255, 255);
     display: flex; /*tornando os itens lado a lado*/
+    justify-content: center;
+    gap: 550px;
     align-items: center;
 }
-.cabecalho {
+header div h1 {
+    color: rgb(255, 255, 255); /** cor da letra  **/
+    font-size: 38px; /* cor da letra*/
     display: flex;
-    align-items: center;
+    
 }
+.listas ul {
+    display: flex;/*tornando as li flex*/
+    justify-content: center;/*ddeixando alas centralizadas */
+    gap: 20px;/*deixando espacos entre elas*/
+}
+
+.listas ul li {
+    list-style: none;
+    
+
+}
+header ul li a {
+    text-decoration: none;
+    color: white;
+    list-style: none;
+
+}
+
+.sessão1 {
+    padding: 300px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    background-image: url(img/people-3334896_1280.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    
+}
+.sessão1 h2 {
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+}
+.sessão1 button {
+    padding: 10px;
+    width: 150px;
+    background-color: #fdfdfd;
+    border-radius: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.sessão1 button:hover {
+    background-color: transparent;
+    color: black;
+    transition: 0.8s;
+} 
+
+.sessão2 {
+    padding: 300px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    background-image: url(img/woman-5864279_1280.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+}
+.sessão2 h2 {
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+}
+.sessão2 button {
+    padding: 10px;
+    width: 150px;
+    background-color: #fdfdfd;
+    border-radius: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.sessão2 button:hover {
+    background-color: transparent;
+    color: black;
+    transition: 0.8s;
+} 
